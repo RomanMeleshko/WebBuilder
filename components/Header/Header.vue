@@ -4,15 +4,16 @@
         <div class="wrapper-header">
 
            <nav class="navbar navbar-light bg-light">
-              <a class="navbar-brand justify-content-start" href="#">DataCose</a>
+              <a class="navbar-brand justify-content-start" href="#">WebBuilder</a>
               <div class="buttons m-auto pr-lg-5 pr-md-5">
-                 <nuxt-link class="border btn btn-primary p-2" to="/Home">
+                 <nuxt-link exact no-prefetch class="border btn btn-primary p-2" to="/Home">
                    Go to Home page
                  </nuxt-link>
 
-                 <nuxt-link class="border btn btn-primary p-2" to="/Todos">
+                 <nuxt-link exact class="border btn btn-primary p-2" to="/Todos">
                    Go to Todos page
                  </nuxt-link>
+
               </div>
            </nav>
 
