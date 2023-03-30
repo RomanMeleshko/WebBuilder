@@ -99,7 +99,21 @@ import 'swiper/swiper-bundle.min.css';
   width: 100%;
   position: absolute;
   overflow: hidden;
-  background: linear-gradient(180.54deg, #C19E6A 0.46%, rgba(49, 16, 143, 0.53) 99.54%);
+  animation: move_background_colors 35s linear infinite;
+  background: linear-gradient(149deg, rgba(24,187,156,0.7) 0%, rgba(106,57,175,0.5) 42%, rgba(187,24,148,0.3) 72%, rgba(115,53,134,0.1) 100%);
+  background-size: 500%;
+}
+
+@keyframes move_background_colors {
+   0% {
+        background-position: 80% 0%;
+    }
+    50% {
+        background-position: 20% 100%;
+    }
+    100% {
+        background-position: 80% 0%;
+    }
 }
 
 .welcome .right-block > img {
@@ -132,11 +146,11 @@ import 'swiper/swiper-bundle.min.css';
 }
 
 .welcome .welcome-buttons > .get_started {
-  background: #EDBA35;
+  background: #f36429;
 }
 
 .welcome .welcome-buttons > .documentation {
-  background: #F06899;
+  background: #1baf4e;
   margin-left: 10px;
 }
 
@@ -362,8 +376,9 @@ import 'swiper/swiper-bundle.min.css';
     margin-top: 50px;
   }
 
-  .welcome-title .welcome-buttons > button {
-    width: 160px;
+  .welcome-title .welcome-buttons > .get_started,
+  .welcome-title .welcome-buttons > .documentation {
+    width: 130px;
   }
 
   .welcome-title .welcome-buttons {
@@ -375,47 +390,49 @@ import 'swiper/swiper-bundle.min.css';
   }
 
   .swiper .roboto_1 {
-    top: 80px;
+    top: 20px;
     width: 70vw;
     left: 10px;
   }
 
   .swiper .roboto_2 {
-    top: 80px;
+    top: 20px;
     right: 10px;
     width: 70vw;
   }
 
   .swiper .roboto_3 {
-    top: 60px;
+    top: 20px;
     width: 70vw;
   }
 
   .swiper .roboto_4 {
-    top: 60px;
+    top: 20px;
     right: 20px;
     width: 70vw;
   }
 
   .swiper .roboto_5 {
-    top: 60px;
+    top: 20px;
     width: 90vw;
     right: 20px;
   }
 
   .swiper .roboto_6 {
-    top: 50px;
+    top: 10px;
     right: 20px;
     width: 90vw;
   }
 
   .swiper .roboto_7 {
-    top: 60px;
+    top: 10px;
+    right: 20px;
     width: 80vw;
   }
 
   .swiper .roboto_8 {
-    top: 80px;
+    top: 10px;
+    right: 20px;
     width: 80vw;
   }
 
