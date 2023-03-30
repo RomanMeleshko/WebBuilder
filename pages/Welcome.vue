@@ -6,10 +6,10 @@
                <div class="row">
 
                   <div class="col-lg-6 col-md-12 text-lg-left text-md-center text-sm-center mt-lg-0 mt-md-4 left-block">
-                     <div class="welcome-title">
+                     <div class="welcome-title text-center">
                         <p class="title-one">WebBuilder</p>
                         <p class="title-two">Create your site dream</p>
-                        <p class="title-three">Service for generater of simple templates for build html pages</p>
+                        <p class="title-three">Service for generate of simple templates <br> for build html pages</p>
                         <div class="welcome-buttons">
                             <nuxt-link class="get_started btn btn-primary p-2" to="/Home">Get Started</nuxt-link>
                             <nuxt-link class="documentation btn btn-primary p-2" to="">Documentation</nuxt-link>
@@ -116,6 +116,10 @@ import 'swiper/swiper-bundle.min.css';
     }
 }
 
+.welcome .welcome-title {
+  padding: 30px;
+}
+
 .welcome .right-block > img {
   position: relative;
   left: 10px;
@@ -124,16 +128,17 @@ import 'swiper/swiper-bundle.min.css';
 .welcome-title > .title-one {
   font-size: 128px;
   font-weight: bold;
-  color: #ffffff;
+  color: #333333;
 }
 .welcome-title > .title-two {
   font-size: 24px;
   font-weight: 700;
-  color: #ffffff;
+  color: #333333;
 }
 .welcome-title > .title-three {
   font-size: 20px;
   font-weight: 700;
+  color: #333333;
 }
 
 .welcome .welcome-buttons > .get_started,
@@ -173,7 +178,6 @@ import 'swiper/swiper-bundle.min.css';
 
   .welcome-title > .title-three {
     top: 40px;
-    width: 390px;
     position: relative;
   }
 
@@ -360,14 +364,14 @@ import 'swiper/swiper-bundle.min.css';
 @media (min-width: 320px) and (max-width: 576px) {
 
   .welcome-title > .title-one {
-    height: 60px;
+    height: 40px;
     text-align: center;
-    font-size: 63px;
+    font-size: 43px;
   }
 
   .welcome-title > .title-two {
     text-align: center;
-    font-size: 32px;
+    font-size: 28px;
   }
 
   .welcome-title > .title-three {
