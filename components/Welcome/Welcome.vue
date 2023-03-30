@@ -99,7 +99,7 @@ import 'swiper/swiper-bundle.min.css';
   width: 100%;
   position: absolute;
   overflow: hidden;
-  animation: move_background_colors 35s linear infinite;
+  animation: move_background_colors 25s linear infinite;
   background: linear-gradient(149deg, rgba(24,187,156,0.7) 0%, rgba(106,57,175,0.5) 42%, rgba(187,24,148,0.3) 72%, rgba(115,53,134,0.1) 100%);
   background-size: 500%;
 }
@@ -371,7 +371,7 @@ import 'swiper/swiper-bundle.min.css';
 
   .welcome-title > .title-two {
     text-align: center;
-    font-size: 28px;
+    font-size: 21px;
   }
 
   .welcome-title > .title-three {

@@ -1,9 +1,32 @@
 <template>
-  <Tutorial />
+  <div id="Home">
+    <div class="Home">
+      <div>
+        <Welcome></Welcome>
+      </div>
+
+    </div>
+  </div>
 </template>
 
 <script>
-export default {
-  name: 'IndexPage'
-}
+import Welcome from "~/components/Welcome/Welcome.vue";
+
+ export default {
+    name: "Home",
+    data() {
+       return {
+
+       }
+    },
+
+    component: {
+      Welcome
+    }
+ }
+
 </script>
+
+<style scoped>
+
+</style>
